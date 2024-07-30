@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Integrações-->
+    <!--Fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!--Fim das fontes-->
+    <link rel="stylesheet" href="style.css">
+    <!--Fim das integrações-->
+    <title>Projeto LP - DNC</title>
+
+</head>
+<body>
+    
+    <!--Menu Superior-->    
+    <div id="menu-superior">
+    <a href="https://www.youtube.com" target="blank"><img src="img/foxlogo.png" id="logo"></a>
+        <h1 id="titulo-menu-superior"> A melhor de Nova Iguaçu<br>na carreira em Tecnologia</h1>
+            <p id="texto-menu-superior">Inscreva-se no curso gratuito de introdução á<br> 
+                Tecnologia da DNC School e aprenda os principais fundamentos<br> 
+                    para construir experiências efetivas.</p>
+    </div>
+    <!--Fim do Menu Superior-->    
+
+    <!--Menu informacional-->
+    <div id="menu-informacional">
+        <p class="texto-informativo"><img src="img/certificado.svg" class="icones" id="certificado" alt="">15 anos no mercado</p>
+        <p class="texto-informativo"><img src="img/relogio.svg" class="icones" id="relogio" alt="">Rápida resolução do seu problema</p>
+        <p class="texto-informativo"><img src="img/camera.svg" class="icones" id="camera" alt="">Acesso remoto no suporte</p>
+    </div>
+    <!--Fim do Menu informacional-->  
+
+    <!--Vídeo-->
+    <div id="secao-video">
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/aKbl9xHil-o?si=1LY0yUmodgGrRTVX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+    <div id="textos-video">
+
+        <h1 id="titulo-video">
+            A melhor empresa de N.I!<br>
+            Trabalhando há 15 anos no mercado.<br><br>
+        </h1>
+        <p id="texto-video">
+            Há quase 2 décadas trabalhando no ramo de tecnologia, sempre entregando<br>
+            soluções para o seu negócio da melhor forma possível.<br><br>
+            Trazendo automações de chatbot via Whatsapp, criação de sites<br> e posicionamento da sua empresa na internet.
+            </p> </div>
+        
+    </div>
+    <!--Fim da seção Vídeo-->
+
+    <!--Carrossel-->
+    <div id="carrossel">
+    
+        <h1 id="titulo-carrossel">Sempre prezando a qualidade e o contato com o cliente.</h1>
+    
+        <!--CARDS-->
+        <div id="div-cards">
+
+            <img id="seta-esquerda" onclick="rolarParaEsquerda()" class="seta" src="img/seta-esquerda.svg" alt="">
+            <img id="depoimento1" class="cards" src="depoimentos/Leonardo.svg" alt="Leonardo">
+            <img id="depoimento2" class="cards" src="depoimentos/Samantha.svg" alt="Samantha">
+            <img id="depoimento3" class="cards" src="depoimentos/Bruna.svg" alt="Bruna">
+            
+            <img id="seta-direita" onclick="rolarParaDireita()" class="seta" src="img/seta-direita.svg" alt="">
+        </div>
+        <!--FIM DOS CARDS-->
+    
+    </div>
+    <!--Fim do Carrossel-->
+
+    <!--SEÇÃO FORMULÁRIO-->
+    <div id="formulario">
+        <h1 id="titulo-formulario">Ficou com alguma dúvida? Fale conosco!</h1>
+
+        <form action="https://api.sheetmonkey.io/form/eh2WFwmmRqQEAnQKPx334f" method="POST">
+            <input type="text" placeholder="Nome" name="Name" required><br>
+            <input type="email" placeholder="Email" name="Email" required><br>
+            <input type="number" placeholder="Telefone" name="Phone" required><br>
+            <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+            <button type="submit">Fale conosco</button>
+        </form>
+
+
+    </div>
+    <!--FIM DA SEÇÃO FORMULÁRIO-->
+
+    <script src="main.js"></script>
+</body>
+</html>

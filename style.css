@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+    
+}
+h1{
+    font-family: Poppins;
+}
+p{
+    font-family: Montserrat;
+}
+/*MENU SUPERIOR*/
+#logo{
+    width: 150px;
+    margin-left: 90px;
+    margin-top: 50px;
+}
+#titulo-menu-superior{
+    margin-top: 20px;
+    margin-left: 120px;
+    font-family: Poppins;
+    line-height: 32px;
+    font-weight: 600;
+    color: #ff6b35;
+}
+#texto-menu-superior{
+    margin-top: 10px;
+    margin-left: 120px;
+    font-family: Montserrat;
+    font-weight: 500;
+    padding-bottom: 50px;
+    color: white;
+}
+#menu-superior{
+    background-image: url(img/fundo.png);
+    background-size: cover;
+    height: 400px;
+}
+/*FIM DO MENU SUPERIOR*/
+/*MENU INFORMACIONAL*/
+#menu-informacional{
+    background-color: #ff6b35;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.icones{
+    margin: 50px 0 50px 100px;
+    padding: 20px;
+}
+.texto-informativo{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/*FIM DO MENU INFORMACIONAL*/
+/*SEÇÃO DE VÍDEO*/
+#secao-video{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#titulo-video{
+    color: #ff6b35;
+    line-height: 33px;
+    margin-top: 70px;
+}
+
+#video{
+    margin: 50px 25px 50px 35px; /* 1 - cima, 2 - direita, 3 - baixo, 4 - esquerda*/
+}
+
+/*FIM DA SEÇÃO DE VÍDEO*/
+
+/*SEÇÃO DE CARROSSEL*/
+
+#carrossel{
+    background-color: #ff6b35;
+    padding: 50px;
+}
+
+#titulo-carrossel{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+#div-cards{
+    margin-top: 25px;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.cards{
+    margin-left: 30px;
+}
+.cards:hover{
+    transform:translateY(-5px);
+    transition: 0.2s;
+}
+
+#seta-esquerda{
+    display: none;
+}
+
+#depoimento3{
+    display: none;
+}
+
+.seta{
+    margin-top: 60%;
+    cursor: pointer;
+}
+.seta:hover{
+    transform:translateY(-5px);
+    transition: 0.6s;
+}
+
+/*FIM DA SEÇÃO CARROSSEL*/
+
+/*SEÇÃO DE FORMULÁRIO*/
+
+#formulario{
+    text-align: center;
+    
+}
+#titulo-formulario{
+    text-align: center;
+    margin: 25px;
+    font-size: 25px;
+}
+input{
+    width: 300px;
+    height: 40px;
+    border-radius: 8px;
+    margin: 12px;
+    border: 0px;
+    background-color: #EAECE5;
+    padding-left: 10px;
+    font-family: Montserrat;
+    font-weight: 500;
+}
+button{
+    width: 250px;
+    height: 40px;
+    background-color:#ff6b35;
+    border: 0px;
+    color: #EAECE5;
+    border-radius: 8px;
+    margin-bottom: 50px;
+    font-family: Montserrat;
+    font-weight: 700;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #FF4500;
+    color: white;
+    transform: translateY(5px);
+    transition: 0.4s;
+}
+/*FIM DA SEÇÃO FORMULÁRIO*/
+
+
